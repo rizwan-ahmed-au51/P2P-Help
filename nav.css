@@ -34,13 +34,13 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 10rem;
-    margin-top: -2.5rem;
-
+    height: 15rem;
+    margin-top: -5.5rem;
 }
 
 nav.black .logo img {
-    height: 9rem;
+    height: 14rem;
+    margin-top: -5.5rem;
 }
 
 nav>ul {
@@ -106,8 +106,8 @@ section.sec2 {
 
     .responsive-bar .logo img {
         float: left;
-        height: 8rem;
-        margin-top: -2.5rem;
+        height: 13rem;
+        margin-top: -5rem;
     }
 
     .responsive-bar .menu h4 {
@@ -194,8 +194,8 @@ section.sec2 {
 
     .responsive-bar .logo img {
         float: left;
-        height: 8rem;
-        margin-top: -2.5rem;
+        height: 11rem;
+        margin-top: -4rem;
     }
 
     .responsive-bar .menu h4 {
