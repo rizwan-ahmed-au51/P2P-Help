@@ -18,6 +18,17 @@
 }
 
 .header h1 {
+    color: rgb(1, 78, 1);
+    font-weight: bolder;
+    padding-bottom: 3rem;
+}
+
+.header em {
+    font-style: normal;
+    color: #ff9803;
+}
+
+/* .header h1 {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -29,7 +40,7 @@
     letter-spacing: 3px;
     color: rgba(253, 251, 251, 0.8);
     margin-bottom: 32px;
-}
+} */
 
 .header .btn {
     background: #f39c12;
@@ -191,6 +202,50 @@
     margin-bottom: 3rem;
 }
 
+
+.workflow h6 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff9500;
+}
+
+.workflow h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.one p {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding-top: 0.7rem;
+}
+
+.one img {
+    max-width: 25%;
+    min-height: 2rem;
+    box-shadow: 2px 2px 5px 5px #efeaea;
+    border-radius: 50%;
+}
+
+.four {
+    background-color: rgb(68, 68, 237);
+    padding: 4rem 0rem;
+}
+
+
+.one .fa {
+    background-color: #fff;
+    color: rgb(68, 68, 237);
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
 .logos img {
     width: 70%;
 }
@@ -281,47 +336,49 @@
     font-weight: 800;
 }
 
-footer {
-    padding-top: 10rem;
+.footer {
+    padding-top: 3rem;
     margin-top: 6rem;
     background-image: url(./assets/footer-bg.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
-footer img {
-    height: 30%;
+.footer .left img {
+    width: 72%;
+    margin-bottom: -4rem;
 }
 
-footer p {
+.footer .left p {
     color: #fff;
     letter-spacing: 1px;
     font-size: 14px;
 
 }
 
-footer .cont {
+.footer .right {
     color: #fff;
-    padding: 4vmax 6vmax;
+    padding: 10rem 6rem;
 }
 
-footer .cont h2 {
+.footer .right h2 {
     font-weight: 600;
     color: #ff9803;
-    padding-bottom: 2rem;
 }
 
-footer .cont .item {
+.footer .right .item {
     display: flex;
     padding-bottom: 1rem;
 }
 
-footer .cont .item .fa {
+.footer .right .item .fa {
     padding-right: 1rem;
     color: #ff9803;
 }
 
-footer .btn {
+.footer .btn {
     background: #f39c12;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -334,23 +391,24 @@ footer .btn {
 
 }
 
-footer .btn:hover {
+.footer .btn:hover {
     background: #fff;
     box-shadow: 0px 2px 20px 10px #6bb90d;
     color: #000;
 }
 
-footer .mini-footer {
-    align-content: center;
+
+.last {
+    padding-top: 4rem;
 }
 
-footer .mini-footer .fa {
+.mini-footer .fa {
     color: #ff9803;
     padding-left: 2rem;
 }
 
 
-footer .mini-footer a {
+.mini-footer a {
     text-decoration: none;
     color: #ff9803;
 }
@@ -376,7 +434,7 @@ footer .mini-footer a {
 }
 
 @media (max-width:768px) {
-    .header h1 {
+    /* .header h1 {
         top: 51%;
         left: 40%;
         transform: translate(-50%, -50%);
@@ -384,7 +442,7 @@ footer .mini-footer a {
         font-weight: 600;
         color: rgba(253, 251, 251, 0.8);
         line-height: 1.7rem;
-    }
+    } */
 
     .header .btn {
         padding: 0.5rem 1.5rem;
@@ -436,7 +494,7 @@ footer .mini-footer a {
 }
 
 @media (max-width:426px) {
-    .header h1 {
+    /* .header h1 {
         top: 23%;
         left: 44%;
         transform: translate(-50%, -50%);
@@ -444,7 +502,7 @@ footer .mini-footer a {
         font-weight: 600;
         color: #000;
         letter-spacing: 0px;
-    }
+    } */
 
     .team img {
         padding-left: 0px;
@@ -456,7 +514,7 @@ footer .mini-footer a {
         margin-left: 0px;
     }
 
-    footer img {
+    .footer .left img {
         height: 25%;
     }
 
@@ -467,7 +525,7 @@ footer .mini-footer a {
         width: 300px;
     }
 
-    footer img {
+    .footer .left img {
         height: 20%;
     }
 }
